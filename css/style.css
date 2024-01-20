@@ -56,3 +56,21 @@ body {
 .hidden{
     display: none;
 }
+
+/* sticky nav */
+
+.sticky .header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 8rem;
+  padding-top: 2rem;
+  padding-bottom: 0;
+  background-color: rgba(26, 30, 31, 0.97);
+  z-index: 999;
+}
+
+.sticky .section-hero{
+  margin-top: 9.6rem;
+}
