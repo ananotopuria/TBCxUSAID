@@ -1,0 +1,54 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 95rem;
+}
+
+.header {
+  background-color: #1a1e1f;
+  padding: 2.5rem 0;
+}
+.header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.tbc-logo {
+  width: 18rem;
+}
+.navigation-list {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  list-style-type: none;
+}
+.navigation-list li:nth-child(3) a {
+  color: #0f7cc6;
+}
+
+.navigation-link:link,
+.navigation-link:visited {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.6rem;
+}
+.navigation-link:hover,
+.navigation-link:active {
+  color: #00aef3;
+}
