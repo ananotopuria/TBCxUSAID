@@ -52,3 +52,7 @@ body {
 .navigation-link:active {
   color: #00aef3;
 }
+
+.hidden{
+    display: none;
+}

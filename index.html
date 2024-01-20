@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
     <link
       rel="shortcut icon"
       href="https://static.wixstatic.com/media/93e8a3_03d83d668a5f417ca646a5e511f8c02a%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/93e8a3_03d83d668a5f417ca646a5e511f8c02a%7Emv2.png"
@@ -21,7 +22,7 @@
             <img class="tbc-logo" src="assets/svg-image-1.png" alt="logo" />
           </a>
         </div>
-        <nav class="navigation">
+        <nav class="main-navigation">
           <ul class="navigation-list">
             <li><a href="#" class="navigation-link">მთავარი</a></li>
             <li><a href="#" class="navigation-link">TBC IT</a></li>
@@ -29,6 +30,29 @@
             <li><a href="#" class="navigation-link">რისკები</a></li>
           </ul>
         </nav>
+        <div class="navigation hidden burger-menu-btn">
+          <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+          <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+          </label>
+          <div class="navigation__background">&nbsp;</div>
+          <nav class="navigation__nav">
+            <ul class="navigation__list">
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">მთავარი</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">TBC IT</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">TBC x USAID</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">რისკები</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
     <main></main>
