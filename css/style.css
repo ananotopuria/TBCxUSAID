@@ -106,11 +106,12 @@ body {
 .hero-title {
   color: #fff;
   font-size: 5rem;
+  font-weight: 600;
 }
 
 .hero-txt {
   color: #fff;
-  font-size: 2.8rem;
+  font-size: 2.7rem;
 }
 
 .learn-more{
@@ -119,5 +120,12 @@ body {
   border: none;
   background-color: transparent;
   cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 600;
+  transition: color 0.5s;
+}
+
+.learn-more:hover {
+  color: #fff;
 }
 
