@@ -12,16 +12,17 @@ html {
 
 body {
   box-sizing: border-box;
+  font-family: 'Noto Sans Georgian', sans-serif;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 95rem;
-}
 
 .header {
   background-color: #1a1e1f;
   padding: 2.5rem 0;
+}
+.container {
+  margin: 0 auto;
+  max-width: 95rem;
 }
 .header-content {
   display: flex;
@@ -53,8 +54,8 @@ body {
   color: #00aef3;
 }
 
-.hidden{
-    display: none;
+.hidden {
+  display: none;
 }
 
 /* sticky nav */
@@ -71,6 +72,52 @@ body {
   z-index: 999;
 }
 
-.sticky .section-hero{
+.sticky .section-hero {
   margin-top: 9.6rem;
 }
+
+/* Main */
+
+/* hero */
+
+.hero-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-image: url("https://static.wixstatic.com/media/93e8a3_9fa23196ddf6427a9da574e2b31a13d2~mv2.jpg/v1/fill/w_1169,h_420,al_c,q_85,enc_auto/93e8a3_9fa23196ddf6427a9da574e2b31a13d2~mv2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 20%;
+  width: 100%;
+  height: 40vh;
+
+
+}
+
+.hero-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: rgba(43, 43, 43, 0.9);
+  width: 100%;
+  height: 50vh;
+}
+
+.hero-title {
+  color: #fff;
+  font-size: 5rem;
+}
+
+.hero-txt {
+  color: #fff;
+  font-size: 2.8rem;
+}
+
+.learn-more{
+  margin-top: 2rem;
+  color: #00aef3;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+

@@ -1,3 +1,15 @@
+/* below 1400px  */
+/* @media(min-width: 87em) {
+  
+} */
+
+@media (min-width: 75em) {
+  .wrapper{
+    width: 95rem;
+    margin: 0 auto;
+  }
+}
+
 /* below 1200px */
 
 @media (max-width: 75em) {
@@ -7,15 +19,16 @@
   .container {
     max-width: 80rem;
   }
+
 }
 
 /* below 944px */
 
-@media (max-width: 59em) {
+/* @media (max-width: 59em) {
   html {
     font-size: 50%;
   }
-}
+} */
 
 /* below 704px */
 
@@ -23,6 +36,7 @@
   .container {
     max-width: 60rem;
   }
+ 
   /* burger menu */
 
   .burger-menu-btn {
@@ -38,8 +52,8 @@
     height: 6rem;
     width: 6rem;
     position: fixed;
-    top: 2rem;
-    right: 12rem;
+    top: 1.6rem;
+    right: 8rem;
     z-index: 2000;
     text-align: center;
     cursor: pointer;
@@ -167,5 +181,16 @@
   .navigation__checkbox:checked + .navigation__button .navigation__icon::after {
     top: 0;
     transform: rotate(-135deg);
+  }
+}
+
+/* below 544px */
+
+@media (max-width: 34em) {
+  .tbc-logo {
+    margin-left: 4rem;
+  }
+  .navigation__button {
+    right: 5rem;
   }
 }
