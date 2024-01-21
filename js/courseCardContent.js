@@ -69,9 +69,9 @@ export const createCard = (course) => {
   const cardHTML = `
       <div class="course-card">
         <img src="${image}" alt="${name}" class="course-image">
-        <h2>${name}</h2>
-        <p>${status}</p>
-        <a href="${details}">Details</a>
+        <h2 class="course-name">${name}</h2>
+        <p class="course-status">${status}</p>
+        <a href="${details}" class="course-details">&#10132; კურსის დეტალები</a>
       </div>
     `;
   const cardContainer = document.createElement("div");

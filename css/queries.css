@@ -19,6 +19,10 @@
   .container {
     max-width: 80rem;
   }
+  .course-content{
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
 }
 
 /* @media (max-width: 59em) {
@@ -208,5 +212,8 @@
   }
   .wrapper {
     width: 40rem;
+  }
+  .course-content{
+    grid-template-columns: 1fr;
   }
 }
