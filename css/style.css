@@ -258,9 +258,8 @@ body {
   gap: 1rem;
   justify-content: center;
   position: absolute;
-  bottom: 2rem; 
+  bottom: 2rem;
   left: 50%;
-
 }
 .square {
   width: 10px;
@@ -270,4 +269,103 @@ body {
 }
 .active-square {
   background-color: #00aef3;
+}
+
+/* questions */
+
+.questions-title {
+  font-size: 6rem;
+  color: #403f3d;
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.all-questions {
+  text-decoration: none;
+  color: #00aef3;
+  display: inline-block;
+  font-size: 2rem;
+}
+
+.section-questions {
+  background-color: #161616;
+}
+
+.questions-title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+
+/* accordion */
+
+.accordion {
+  width: 100%;;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 6rem;
+}
+
+.accordion-title {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+  padding: 1rem;
+}
+.accordion-title-border{
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 3rem;
+  margin-bottom: 3rem;
+}
+
+.accordion-t {
+  font-size: 1.6rem;
+  color: #fff;
+}
+.accordion-p {
+  padding: 1rem;
+  font-size: 1.4rem;
+  color: #fff;
+  border-bottom: 1px solid #ccc;
+  display: none;
+}
+.accordion-btns {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 1rem;
+  left: 90%;
+}
+.accordion-arrow {
+  color: #ccc;
+  font-size: 3rem;
+}
+
+.accordion.active .accordion-p {
+  display: block;
+}
+
+.acc-toggle {
+  cursor: pointer;
+}
+.acc.acc-toggle {
+  outline: 0;
+}
+
+.acc-toggle .arrow-up {
+  display: none;
+}
+.accordion.active .accordion-title-border {
+  border-bottom: none;
+}
+
+.accordion.active .acc-toggle .arrow-up {
+  display: block;
+}
+.accordion.active .acc-toggle .arrow-down {
+  display: none;
 }

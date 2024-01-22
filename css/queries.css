@@ -226,4 +226,13 @@
   .partners__slider--slide {
     flex-direction: column;
   }
+  .course-title,.partners-title{
+    text-align: center;
+  }
+  .partners__slider{
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
+  }
+  
 }
