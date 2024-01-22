@@ -23,6 +23,10 @@
     grid-template-columns: 1fr 1fr;
     justify-items: center;
   }
+  .partners-image {
+    width: 20rem;
+
+  }
 }
 
 /* @media (max-width: 59em) {
@@ -196,6 +200,9 @@
   .wrapper{
     width: 60rem;
   }
+  .partners__slider--slide {
+    flex-wrap: wrap;
+  }
 }
 
 /* below 544px */
@@ -215,5 +222,8 @@
   }
   .course-content{
     grid-template-columns: 1fr;
+  }
+  .partners__slider--slide {
+    flex-direction: column;
   }
 }
