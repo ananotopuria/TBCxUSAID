@@ -299,11 +299,10 @@ body {
   padding-top: 5rem;
 }
 
-
 /* accordion */
 
 .accordion {
-  width: 100%;;
+  width: 100%;
   margin: 0 auto;
   position: relative;
   margin-top: 6rem;
@@ -316,10 +315,10 @@ body {
   align-items: center;
   padding: 1rem;
 }
-.accordion-title-border{
+.accordion-title-border {
   border-bottom: 1px solid #ccc;
   padding-bottom: 3rem;
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
 }
 
 .accordion-t {
@@ -368,4 +367,49 @@ body {
 }
 .accordion.active .acc-toggle .arrow-down {
   display: none;
+}
+
+/* footer */
+
+.footer {
+  background-color: #1a1e1f;
+  padding: 4rem;
+}
+
+.footer-logo {
+  width: 12rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-icon {
+  color: #949494;
+  font-size: 4rem;
+}
+
+.rights {
+  color: #fff;
+  font-size: 1.4rem;
+  background-color: transparent;
+  border: none;
+}
+
+.contact-us {
+  color: #fff;
+  background-color: #00aef3;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.6rem;
 }
