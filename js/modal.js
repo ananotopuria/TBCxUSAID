@@ -10,27 +10,6 @@ export const openModalWindow = function () {
   }
 };
 
-// export const closeModalWindow = function(){
-//     const modal = document.querySelector(`.modal`);
-//     const overlayy = document.querySelector(`.overlayy`);
-//     const btnClose = document.querySelector(`.close-modal`);
-//     btnClose.addEventListener(`click`, function(){
-//         modal.classList.add(`hidden`);
-//         overlayy.classList.add(`hidden`);
-//     });
-// }
-// export const closeModalWindow = function () {
-//   const modals = document.querySelectorAll(".modal");
-//   const overlays = document.querySelectorAll(".overlayy");
-//   const btnCloses = document.querySelectorAll(".close-modal");
-//   btnCloses.forEach((btnClose, index) => {
-//     btnClose.addEventListener("click", function () {
-//       modals[index].classList.add("hidden");
-//       overlays[index].classList.add("hidden");
-//     });
-//   });
-// };
-
 export const closeModalWindow = function () {
     document.addEventListener('click', function (event) {
         const btnClose = event.target.closest('.close-modal');
