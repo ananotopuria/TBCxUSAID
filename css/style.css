@@ -1,3 +1,26 @@
+
+@font-face {
+  font-family: "Tbc-light";
+  src: url("../assets/fonts/file.woff2") format("woff2");
+}
+
+
+@font-face {
+  font-family: "Tbc-medium";
+  src: url("../assets/fonts/file1.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Tbc-bold";
+  src: url("../assets/fonts/file3.woff2") format("woff2")
+}
+
+
+@font-face {
+  font-family: "Tbc-extrabold";
+  src: url("../assets/fonts/file2.woff2") format("woff2");
+}
+
 *,
 *::after,
 *::before {
@@ -12,7 +35,8 @@ html {
 
 body {
   box-sizing: border-box;
-  font-family: "Noto Sans Georgian", sans-serif;
+  /* font-family: "Noto Sans Georgian", sans-serif; */
+  font-family: "Tbc-medium", Arial, sans-serif;
   overflow-x: hidden;
 }
 
@@ -103,8 +127,11 @@ body {
 
 .hero-title {
   color: #fff;
-  font-size: 5rem;
-  font-weight: 600;
+  font-size: 4rem;
+  font-family: "Tbc-extrabold", Arial, sans-serif;
+}
+.hero-title span{
+  font-size: 3rem;
 }
 
 .hero-txt {
@@ -458,14 +485,14 @@ body {
   margin-bottom: 2rem;
 }
 
-.modal-btn{
+.modal-btn {
   width: 100%;
   padding: 1.8rem 2rem;
   border: none;
   border-radius: 0.8rem;
   font-size: 1.8rem;
 }
-.modal-btn:hover{
+.modal-btn:hover {
   color: #fff;
   background-color: #00aef3;
   border: none;
@@ -473,13 +500,13 @@ body {
   transition: all 0.5s;
 }
 
-.modal-icon-container{
+.modal-icon-container {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: flex-end;
   width: 100%;
 }
-.modal-icon{
+.modal-icon {
   font-size: 4rem;
 }
