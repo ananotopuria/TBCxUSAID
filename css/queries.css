@@ -25,7 +25,13 @@
   }
   .partners-image {
     width: 20rem;
-
+  }
+  .header {
+    background-color: #1a1e1f;
+    height: 9.8rem;
+  }
+  .sticky .header {
+    height: 9.8rem;
   }
 }
 
