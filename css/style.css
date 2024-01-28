@@ -373,6 +373,7 @@ body {
   letter-spacing: .1rem;
   line-height: 1;
   cursor: pointer;
+  text-decoration: none;
   transition: all 0.5s;
 }
 .contact-us:hover{
@@ -443,4 +444,16 @@ body {
 }
 .modal-icon {
   font-size: 4rem;
+}
+.modal {
+  transform: translateX(100%);
+  animation: slideIn 0.5s forwards; 
+}
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
